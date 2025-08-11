@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form - Brian Ochieng</title>
+     
+</head>
+<body>
+    <h1>HEALTH  CONTENT </h1>
+    
+    <h2>Definition lists</h2>
+    <dl>
+        <dt>MSW</dt>
+        <dd>Medical Social Work </dd>
+        <dt>OHS</dt>
+        <dd>Occupational Health and Safety</dd>
+        <dt>HIV</dt>
+        <dd>Human Immunodeficiency Virus</dd>
+        <dt>CCC</dt>
+        <dd>Comprehensive Care Clinic</dd>
+        <dt></dt>
+    </dl>
+    <h2>Nested lists</h2>
+    <ol>
+        <li>Preventive services
+            <ol type="I">
+                <li>Immunization</li>
+                <li>Health Education</li>
+                <li>Screening</li>
+    </ol>
+    <li>Health services
+        <ul>
+            <li>Primary health care</li>
+            <li>Secondary health care</li>
+            <li>Tertiary health care</li>
+        </ul>
+
+    </li>
+    <h2>Multimedia</h2>
+    <h3>Image</h3>
+    <img src="https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg"alt="Hospital bed" width ="300" height="200">
+
+     <h3>Audio</h3>
+        <audio controls>
+            <source src="Boss M.O.G - Fundi Wa Mbao.mp3" type="audio/mpeg">
+            Your browser does not support the audio
+             </audio>
+
+             <h3>Video</h3>
+             <video width="320" height="240" controls>
+                <source src="HEALTH.mp4" type="video/mp4">
+                Your browser does not support the video playback
+             </video>
+             <h2>Tables</h2>
+             <table border="1">
+                <thead>
+                    <tr></tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>services</th>
+                </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Brian ochieng</td>
+                        <td>25</td>
+                        <td>Psychosocial assessment</td>
+                 </tr> 
+                    <tr>
+                        <td>David</td>
+                        <td>27</td>
+                        <td>Counselling</td>
+                        </tr>
+                </tbody>      
+             </table>
+                <h2>Forms</h2>
+                <form action="https://example.com/submit" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" >
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" >
+                    <br><br>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="0" max="120" >
+                    <br><br>
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password">
+                    <br><br>
+                    <select id="services" name="services">
+                        <option value="counseling">Counseling</option>
+                        <option value="psychosocial">Psychosocial Support</option>
+                        <option value="health_education">Health Education</option>
+                    </select>
+                    <br><br>
+                    <label for="comments">comments</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+</body>
+
+</html>
